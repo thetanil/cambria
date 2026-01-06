@@ -7,7 +7,7 @@ The HyperMedia application platform is self-contained and self-hostable. Data ob
 Cambria is based on ideas, design, and implementation from Fossil and SQLite,
 created by [D. Richard Hipp](https://en.wikipedia.org/wiki/D._Richard_Hipp), Solid PODs by [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) and Hypermedia by [Ted Nelson](https://en.wikipedia.org/wiki/Ted_Nelson).
 
-Cambria is written in Go. Through [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike) and [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) all things were made; without them not a process would fork.
+Cambria is written in Go. Through [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike) and [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) all things were made; without them not a process would fork. Praise Be!
 
 ## Install the latest binary
 

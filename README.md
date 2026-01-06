@@ -1,6 +1,6 @@
 # cambria - own your data
 
-A web application platform in a single binary. Version controlled site and data in sqlite.
+A source code management and web application platform in a single binary. Your code, your data in sqlite.
 
 The HyperMedia application platform is self-contained and self-hostable. Data objects are stored as JSON in the same sqlite db as the version controlled content for your site, which is written with HTMX (HTML) and Tachyons (CSS) and requires no additional Javascript programming.
 

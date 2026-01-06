@@ -13,8 +13,6 @@ jobs:
       FOSSIL_REMOTE: https://ipsaw.com/cambria
       BUILD_ROOT: canonical/source
     steps:
-      - name: Checkout release repository
-        uses: actions/checkout@v4
 
       - name: Install fossil and build deps
         run: |

@@ -7,7 +7,7 @@ Own your data.
 ## Install the latest binary
 
 ```bash
-curl -L https://github.com/thetanil/cambria/releases/latest/download/cambria -o /usr/local/bin/cambria && chmod +x /usr/local/bin/cambria
+curl -L https://github.com/thetanil/cambria/releases/latest/download/cambria -o $HOME/.local/bin/cambria && chmod +x $HOME/.local/bin/cambria
 ```
 
 Copyright (c) 2026 Nicholas Hildebrant. All rights reserved.

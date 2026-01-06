@@ -1,11 +1,13 @@
-# cambria
+# cambria - own your data
 
-A web application platform in a single binary. Version controlled in sqlite. Own your data.
-
-Cambria is based on ideas, design, and implementation from Fossil and SQLite,
-created by [D. Richard Hipp](https://en.wikipedia.org/wiki/D._Richard_Hipp).
+A web application platform in a single binary. Version controlled site and data in sqlite.
 
 The HyperMedia application platform is self-contained and self-hostable. Data objects are stored as JSON in the same sqlite db as the version controlled content for your site, which is written with HTMX (HTML) and Tachyons (CSS) and requires no additional Javascript programming.
+
+Cambria is based on ideas, design, and implementation from Fossil and SQLite,
+created by [D. Richard Hipp](https://en.wikipedia.org/wiki/D._Richard_Hipp), Solid PODs by [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) and Hypermedia by [Ted Nelson](https://en.wikipedia.org/wiki/Ted_Nelson).
+
+Cambria is written in Go. Through [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike) and [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) all things were made; without them not a process would fork.
 
 ## Install the latest binary
 

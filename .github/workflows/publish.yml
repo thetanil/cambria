@@ -56,9 +56,10 @@ jobs:
           fi
           echo "version_string=$VERSION_OUTPUT" >> "$GITHUB_OUTPUT"
           echo "version_tag=$VERSION_TAG" >> "$GITHUB_OUTPUT"
-          mkdir -p release-artifacts
-          cp cambria ../../release-artifacts/cambria
-          chmod +x ../../release-artifacts/cambria
+          ARTIFACT_DIR="$GITHUB_WORKSPACE/release-artifacts"
+          mkdir -p "$ARTIFACT_DIR"
+          cp cambria "$ARTIFACT_DIR/cambria"
+          chmod +x "$ARTIFACT_DIR/cambria"
 
       - name: Ensure tag is new
         env:

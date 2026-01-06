@@ -13,7 +13,6 @@ jobs:
       FOSSIL_REMOTE: https://ipsaw.com/cambria
       BUILD_ROOT: canonical/source
     steps:
-
       - name: Install fossil and build deps
         run: |
           sudo apt-get update
@@ -42,7 +41,7 @@ jobs:
         id: version
         run: |
           cd "$BUILD_ROOT"
-          VERSION_OUTPUT=$(./cambria version | tr -d '\r')
+          VERSION_OUTPUT=$(./cambria --version | tr -d '\r')
           if [ -z "$VERSION_OUTPUT" ]; then
             echo "cambria version returned no data" >&2
             exit 1

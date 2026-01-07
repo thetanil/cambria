@@ -19,7 +19,7 @@ jobs:
       - name: Install fossil and build deps
         run: |
           sudo apt-get update
-          sudo apt-get install -y fossil make
+          sudo apt-get install -y fossil make musl-tools
 
       - name: Clone fossil canonical repository
         run: |
